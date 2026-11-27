@@ -1,0 +1,103 @@
+neljässivu.html
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<title>Suomen Uutiset – Urheilu</title>
+<style>
+  body {
+    margin: 0;
+    padding: 35px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    background: #1e3f20 url('https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+    background-size: cover;
+  }
+  .sivu {
+    max-width: 820px;
+    margin: 0 auto;
+    background-color: #fdfcf9;
+    border: 1px solid #999;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+    padding: 25px 35px 45px 35px;
+  }
+  .otsikkoalue {
+    border-bottom: 3px double #111;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-size: 32px; margin: 0; }
+  .alaotsikko { font-size: 12px; color: #555; margin-top: 4px; text-transform: uppercase; letter-spacing: 1px; }
+  .palkki {
+    display: flex;
+    background-color: #222;
+    border: 1px solid #111;
+    margin-bottom: 25px;
+    position: sticky;
+    top: 0;
+  }
+  .palkki a {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #444;
+    color: #f4f1ea;
+    padding: 12px 15px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .palkki a:last-child { border-right: none; }
+  .palkki a:hover { background-color: #3a3a3a; }
+  .palkki a.aktiivinen { background-color: #8b0000; color: #fff; font-weight: bold; }
+  h2 { font-family: Georgia, "Times New Roman", serif; font-size: 26px; margin: 0 0 10px 0; }
+  .ingressi { font-size: 16px; font-weight: bold; color: #333; line-height: 1.5; border-bottom: 1px solid #ccc; padding-bottom: 15px; margin-bottom: 20px; }
+  h3 { font-family: Georgia, "Times New Roman", serif; font-size: 19px; color: #8b0000; margin: 25px 0 8px 0; }
+  p { font-size: 15px; line-height: 1.7; margin: 0 0 15px 0; }
+  .linkkilaatikko { background-color: #f4f1ea; border: 1px solid #ccc; border-left: 4px solid #8b0000; padding: 15px 20px; margin-top: 30px; }
+  .linkkilaatikko ul { list-style: none; padding: 0; margin: 10px 0 0 0; }
+  .linkkilaatikko a { display: block; padding: 6px 4px; color: #003366; text-decoration: none; }
+  .linkkilaatikko a:hover { text-decoration: underline; color: #8b0000; }
+</style>
+</head>
+<body>
+
+<div class="sivu">
+  <div class="otsikkoalue">
+    <h1>SUOMEN UUTISET</h1>
+    <div class="alaotsikko">Urheilu ja tulokset</div>
+  </div>
+
+  <div class="palkki">
+    <a href="index.html">Etusivu (Linkit)</a>
+    <a href="politiikka.html">Politiikka</a>
+    <a href="talous.html">Talous</a>
+    <a href="urheilu.html" class="aktiivinen">Urheilu</a>
+  </div>
+
+  <h2>Urheilu ja huippu-urheilun seuranta</h2>
+  <p class="ingressi">Suomalainen urheiluvuosi tarjoaa jännitystä ympäri vuoden jääkiekon kotimaisesta Liigasta ja NHL-kaukaloista aina yleisurheilun arvokisoihin, jalkapalloon ja moottoriurheiluun saakka.</p>
+
+  <h3>Jääkiekko: Liiga, NHL ja Leijonat</h3>
+  <p>Jääkiekko on Suomen seuratuin urheilulaji. Kotimainen Liiga käynnistyy syyskuussa ja huipentuu kevään pudotuspeleihin, joissa ratkotaan Kanada-maljan kohtalo. Lisäksi kymmenet suomalaiset huippupelaajat pelaavat Pohjois-Amerikan NHL-sarjassa, jonka otteluita ja pistepörssejä seurataan tiiviisti läpi talven.</p>
+  <p>Keväisin pelattavat jääkiekon MM-kisat sekä olympiaturnaukset kokoavat suomalaiset televisioiden ääreen kannustamaan Leijonia ja Naisleijonia.</p>
+
+  <h3>Jalkapallo ja palloilusarjat</h3>
+  <p>Suomalaisen jalkapallon pääsarja Veikkausliiga pelataan keväästä syksyyn. Euroopan huippusarjoista Valioliiga, Mestarien liiga, La Liga ja Serie A ovat suomalaisten urheilun ystävien kestosuosikkeja. Maajoukkuetasolla Huuhkajien ja Helmareiden EM- ja MM-karsintaottelut ovat vuoden suurimpia urheilutapahtumia.</p>
+
+  <h3>Yleisurheilu, talvilajit ja moottoriurheilu</h3>
+  <p>Kesäisin katseet kääntyvät yleisurheilun Timanttiliigaan, Kalevan kisoihin sekä Ruotsi-otteluun, unohtamatta EM- ja MM-kilpailuja. Talvikaudella maastohiihto, ampumahiihto ja mäkihyppy pitävät yllä suomalaisia talviurheiluperinteitä. Moottoriurheilussa Formula 1 -sarja ja rallin MM-sarja (WRC) Suomen Secto Rally -osakilpailuineen keräävät suuret yleisöt.</p>
+
+  <div class="linkkilaatikko">
+    <strong>Tulospalvelut ja urheilu-uutiset:</strong>
+    <ul>
+      <li><a href="https://yle.fi/urheilu" target="_blank">Yle Urheilu</a></li>
+      <li><a href="https://www.is.fi/urheilu/" target="_blank">Ilta-Sanomat – Urheilu</a></li>
+      <li><a href="https://www.iltalehti.fi/urheilu" target="_blank">Iltalehti – Urheilu</a></li>
+      <li><a href="https://www.mtvuutiset.fi/aihe/urheilu/2977194" target="_blank">MTV Urheilu</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

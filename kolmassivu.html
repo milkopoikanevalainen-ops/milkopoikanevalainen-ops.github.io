@@ -1,0 +1,104 @@
+kolmassivu.html
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<title>Suomen Uutiset – Talous</title>
+<style>
+  body {
+    margin: 0;
+    padding: 35px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    background: #1c2833 url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+    background-size: cover;
+  }
+  .sivu {
+    max-width: 820px;
+    margin: 0 auto;
+    background-color: #fdfcf9;
+    border: 1px solid #999;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+    padding: 25px 35px 45px 35px;
+  }
+  .otsikkoalue {
+    border-bottom: 3px double #111;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-size: 32px; margin: 0; }
+  .alaotsikko { font-size: 12px; color: #555; margin-top: 4px; text-transform: uppercase; letter-spacing: 1px; }
+  .palkki {
+    display: flex;
+    background-color: #222;
+    border: 1px solid #111;
+    margin-bottom: 25px;
+    position: sticky;
+    top: 0;
+  }
+  .palkki a {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #444;
+    color: #f4f1ea;
+    padding: 12px 15px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .palkki a:last-child { border-right: none; }
+  .palkki a:hover { background-color: #3a3a3a; }
+  .palkki a.aktiivinen { background-color: #8b0000; color: #fff; font-weight: bold; }
+  h2 { font-family: Georgia, "Times New Roman", serif; font-size: 26px; margin: 0 0 10px 0; }
+  .ingressi { font-size: 16px; font-weight: bold; color: #333; line-height: 1.5; border-bottom: 1px solid #ccc; padding-bottom: 15px; margin-bottom: 20px; }
+  h3 { font-family: Georgia, "Times New Roman", serif; font-size: 19px; color: #8b0000; margin: 25px 0 8px 0; }
+  p { font-size: 15px; line-height: 1.7; margin: 0 0 15px 0; }
+  .linkkilaatikko { background-color: #f4f1ea; border: 1px solid #ccc; border-left: 4px solid #8b0000; padding: 15px 20px; margin-top: 30px; }
+  .linkkilaatikko ul { list-style: none; padding: 0; margin: 10px 0 0 0; }
+  .linkkilaatikko a { display: block; padding: 6px 4px; color: #003366; text-decoration: none; }
+  .linkkilaatikko a:hover { text-decoration: underline; color: #8b0000; }
+</style>
+</head>
+<body>
+
+<div class="sivu">
+  <div class="otsikkoalue">
+    <h1>SUOMEN UUTISET</h1>
+    <div class="alaotsikko">Talous ja markkinat</div>
+  </div>
+
+  <div class="palkki">
+    <a href="index.html">Etusivu (Linkit)</a>
+    <a href="politiikka.html">Politiikka</a>
+    <a href="talous.html" class="aktiivinen">Talous</a>
+    <a href="urheilu.html">Urheilu</a>
+  </div>
+
+  <h2>Talous, pörssi ja yritysmaailma</h2>
+  <p class="ingressi">Suomen talous on pieni ja avoin vientitalous, jonka kehitykseen vaikuttavat suoraan kansainvälinen suhdanne, korkotaso, inflaatio sekä kotimaisten yritysten kilpailukyky ja investoinnit.</p>
+
+  <h3>Korkotaso, inflaatio ja keskuspankit</h3>
+  <p>Euroalueen rahapolitiikasta vastaa Euroopan keskuspankki (EKP), jonka ensisijaisena tavoitteena on hintavakauden ylläpitäminen eli inflaation pitäminen lähellä kahta prosenttia. EKP:n ohjauskorot heijastuvat suoraan suomalaisten asuntovelallisten maksamiin Euribor-korkoihin sekä yritysten lainarahoituksen hintaan.</p>
+  <p>Kun korot nousevat, kotitalouksien ostovoima ja kulutuskysyntä tyypillisesti hidastuvat, mikä hillitsee hintojen nousua. Vastaavasti korkojen lasku piristää asuntomarkkinoita ja madaltaa yritysten kynnystä käynnistää uusia investointihankkeita.</p>
+
+  <h3>Helsingin pörssi (Nasdaq Helsinki)</h3>
+  <p>Helsingin pörssissä vaihdetaan suomalaisten pörssiyhtiöiden osakkeita. Pörssin yleisindeksi (OMX Helsinki) kuvaa suomalaisten suuryritysten arvonkehitystä. Perinteisesti Helsingin pörssi on painottunut vahvasti metsäteollisuuteen, konepajoihin, finanssisektoriin sekä tietoliikenne- ja teknologiayhtiöihin.</p>
+  <p>Sijoittajat seuraavat erityisesti yhtiöiden neljännesvuosittaisia osavuosikatsauksia, tulosvaroituksia sekä keväisin maksettavia osinkoja, sillä Helsingin pörssi tunnetaan kansainvälisesti hyvänä osingonmaksajana.</p>
+
+  <h3>Työmarkkinat ja julkinen talous</h3>
+  <p>Työllisyysaste, palkkaratkaisut ja tuottavuuden kasvu määrittävät pitkälti sen, kuinka paljon verotuloja valtiolle ja kunnille kertyy. Väestön ikääntyminen kasvattaa eläke- ja hoivamenoja, minkä vuoksi talouskeskustelussa korostuvat jatkuvasti työperäinen maahanmuutto, koulutustason nosto sekä uudet teknologiset innovaatiot.</p>
+
+  <div class="linkkilaatikko">
+    <strong>Seuraa taloutta ja pörssikursseja:</strong>
+    <ul>
+      <li><a href="https://www.kauppalehti.fi" target="_blank">Kauppalehti – Pörssi ja talousuutiset</a></li>
+      <li><a href="https://www.talouselama.fi" target="_blank">Talouselämä</a></li>
+      <li><a href="https://www.arvopaperi.fi" target="_blank">Arvopaperi</a></li>
+      <li><a href="https://yle.fi/t/18-204933/fi" target="_blank">Yle Uutiset – Talous</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>

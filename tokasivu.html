@@ -1,0 +1,106 @@
+tokasivu.html
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<meta charset="UTF-8">
+<title>Suomen Uutiset – Politiikka</title>
+<style>
+  body {
+    margin: 0;
+    padding: 35px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    background: #2c3539 url('https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+    background-size: cover;
+  }
+  .sivu {
+    max-width: 820px;
+    margin: 0 auto;
+    background-color: #fdfcf9;
+    border: 1px solid #999;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+    padding: 25px 35px 45px 35px;
+  }
+  .otsikkoalue {
+    border-bottom: 3px double #111;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-size: 32px; margin: 0; }
+  .alaotsikko { font-size: 12px; color: #555; margin-top: 4px; text-transform: uppercase; letter-spacing: 1px; }
+  .palkki {
+    display: flex;
+    background-color: #222;
+    border: 1px solid #111;
+    margin-bottom: 25px;
+    position: sticky;
+    top: 0;
+  }
+  .palkki a {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #444;
+    color: #f4f1ea;
+    padding: 12px 15px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .palkki a:last-child { border-right: none; }
+  .palkki a:hover { background-color: #3a3a3a; }
+  .palkki a.aktiivinen { background-color: #8b0000; color: #fff; font-weight: bold; }
+  h2 { font-family: Georgia, "Times New Roman", serif; font-size: 26px; margin: 0 0 10px 0; }
+  .ingressi { font-size: 16px; font-weight: bold; color: #333; line-height: 1.5; border-bottom: 1px solid #ccc; padding-bottom: 15px; margin-bottom: 20px; }
+  h3 { font-family: Georgia, "Times New Roman", serif; font-size: 19px; color: #8b0000; margin: 25px 0 8px 0; }
+  p { font-size: 15px; line-height: 1.7; margin: 0 0 15px 0; }
+  .linkkilaatikko { background-color: #f4f1ea; border: 1px solid #ccc; border-left: 4px solid #8b0000; padding: 15px 20px; margin-top: 30px; }
+  .linkkilaatikko ul { list-style: none; padding: 0; margin: 10px 0 0 0; }
+  .linkkilaatikko a { display: block; padding: 6px 4px; color: #003366; text-decoration: none; }
+  .linkkilaatikko a:hover { text-decoration: underline; color: #8b0000; }
+</style>
+</head>
+<body>
+
+<div class="sivu">
+  <div class="otsikkoalue">
+    <h1>SUOMEN UUTISET</h1>
+    <div class="alaotsikko">Politiikka ja päätöksenteko</div>
+  </div>
+
+  <div class="palkki">
+    <a href="index.html">Etusivu (Linkit)</a>
+    <a href="politiikka.html" class="aktiivinen">Politiikka</a>
+    <a href="talous.html">Talous</a>
+    <a href="urheilu.html">Urheilu</a>
+  </div>
+
+  <h2>Politiikka ja yhteiskunnallinen päätöksenteko</h2>
+  <p class="ingressi">Suomen poliittinen järjestelmä perustuu edustukselliseen demokratiaan, jossa ylintä valtaa käyttää 200-jäseninen eduskunta. Seuraa tästä katsauksesta, miten lainsäädäntö, valtion budjetti ja kansainvälinen politiikka rakentuvat.</p>
+
+  <h3>Eduskunnan työskentely ja lainsäädäntö</h3>
+  <p>Eduskunnan keskeisin tehtävä on säätää lait ja päättää valtion talousarviosta eli budjetista. Lakiesitykset tulevat eduskuntaan pääosin hallituksen esityksinä, minkä jälkeen ne lähetetään asiantuntijavaliokuntiin tarkasteltaviksi. Valiokuntien mietintöjen pohjalta kansanedustajat keskustelevat ja äänestävät laeista täysistunnoissa.</p>
+  <p>Kansanedustajilla on myös oikeus tehdä lakialoitteita, talousarvioaloitteita sekä esittää hallitukselle suullisia ja kirjallisia kysymyksiä. Torstaisin järjestettävä eduskunnan kyselytunti on yksi seuratuimmista poliittisista tapahtumista, jossa oppositio haastaa hallituksen ministereitä ajankohtaisista aiheista.</p>
+
+  <h3>Hallitus ja oppositio</h3>
+  <p>Suomessa hallitukset ovat perinteisesti usean puolueen muodostamia koalitiohallituksia. Hallitusohjelma määrittelee vaalikauden keskeisimmät tavoitteet aina verotuksesta sosiaali- ja terveyspalveluihin sekä koulutuspolitiikkaan. Hallituksen ulkopuolelle jäävät puolueet muodostavat opposition, jonka tehtävänä on valvoa hallituksen toimintaa ja tarjota sille poliittisia vaihtoehtoja.</p>
+
+  <h3>Euroopan unioni ja ulkopolitiikka</h3>
+  <p>Suomen ulko- ja turvallisuuspolitiikkaa johtaa tasavallan presidentti yhteistoiminnassa valtioneuvoston kanssa. EU-asioiden valmistelu ja päätöksenteko puolestaan kuuluvat valtioneuvostolle ja pääministerille, joka edustaa Suomea Eurooppa-neuvoston huippukokouksissa. Eduskunnan suuri valiokunta linjaa Suomen kannat merkittäviin EU-lakihankkeisiin.</p>
+
+  <h3>Kunta- ja aluevaalit</h3>
+  <p>Valtakunnanpolitiikan ohella päätöksiä tehdään lähellä kansalaisia kunnissa ja hyvinvointialueilla. Kunnat vastaavat muun muassa varhaiskasvatuksesta, perusopetuksesta, kaavoituksesta ja kulttuuripalveluista, kun taas hyvinvointialueet järjestävät sosiaali-, terveys- ja pelastustoimen palvelut.</p>
+
+  <div class="linkkilaatikko">
+    <strong>Lue tuoreimmat politiikan uutiset:</strong>
+    <ul>
+      <li><a href="https://yle.fi/t/18-220306/fi" target="_blank">Yle Uutiset – Politiikka</a></li>
+      <li><a href="https://www.hs.fi/politiikka/" target="_blank">Helsingin Sanomat – Politiikka</a></li>
+      <li><a href="https://www.verkkouutiset.fi" target="_blank">Verkkouutiset</a></li>
+      <li><a href="https://www.eduskunta.fi" target="_blank">Eduskunnan verkkosivut</a></li>
+    </ul>
+  </div>
+</div>
+
+</body>
+</html>
